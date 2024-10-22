@@ -117,9 +117,33 @@
 // } while (index <= 5)
 // console.log('El promedio salarial es: ' + (sumaSalario / (index - 1)))
 
-let nombre = 'Jaime Zapata'
+/* let nombre = 'Jaime Zapata'
 let edad = 33
 if (edad >= 18) {
     let salario = 900000
 }
-console.log(nombre + ' Tiene un salario de ' + salario)
+console.log(nombre + ' Tiene un salario de ' + salario) */
+
+
+/* Funciones Declarativas */
+// funcionDeclarativa()
+// function funcionDeclarativa() {
+//     let nombre = 'Jaime Zapata'
+//     let edad = 33
+//     console.log('Soy ' + nombre + ', tengo ' + edad + ' y estoy aprendiendo funciones declarativas')
+// }
+// funcionDeclarativa()
+
+// /* Función de expresión */
+// funcionDeExpresion()
+// let funcionDeExpresion = function () {
+//     let nombre = 'Jaime Zapata'
+//     let edad = 33
+//     console.log('Soy ' + nombre + ', tengo ' + edad + ' y estoy aprendiendo funciones de expresión')
+// }
+// funcionDeExpresion()
+
+function calcularSalario(valHora, cantidadHoras){
+    console.log('El salario es: ' + (valHora*cantidadHoras))
+}
+calcularSalario(1500,100)
